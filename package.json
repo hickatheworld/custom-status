@@ -2,7 +2,7 @@
   "name": "custom-status",
 	"displayName": "Custom Status",
 	"description": "Small VS Code extension to display a message of yours in the status bar.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.58.0"
 	},
