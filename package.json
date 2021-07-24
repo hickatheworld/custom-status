@@ -11,6 +11,10 @@
 	"categories": [
 		"Other"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hickatheworld/custom-status.git"
+	},
 	"activationEvents": [
         "onCommand:custom-status.edit",
         "onCommand:custom-status.switch"
