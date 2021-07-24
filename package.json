@@ -10,14 +10,21 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:custom-status.helloWorld"
+        "onCommand:custom-status.edit",
+        "onCommand:custom-status.switch"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "custom-status.helloWorld",
-				"title": "Hello World"
+				"command": "custom-status.edit",
+				"category": "Custom Status",
+				"title": "Edit Custom Message"
+			},
+			{
+				"command": "custom-status.switch",
+				"category": "Custom Status",
+				"title": "Switch Display"
 			}
 		]
 	},
