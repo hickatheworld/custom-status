@@ -16,8 +16,7 @@
 		"url": "https://github.com/hickatheworld/custom-status.git"
 	},
 	"activationEvents": [
-        "onCommand:custom-status.edit",
-        "onCommand:custom-status.switch"
+        "onStartupFinished"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
