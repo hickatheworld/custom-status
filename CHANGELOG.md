@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Added
+ - Keep status persistent even after closing VS Code
 
 ## [0.0.2] - 2021-07-24
 ### Added
