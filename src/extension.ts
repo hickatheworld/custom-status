@@ -20,6 +20,7 @@ export function activate(context: vscode.ExtensionContext) {
 	});
 
 	const editFunction = vscode.commands.registerCommand('custom-status.edit', () => {
+		editInput.value = context.globalState.get('status') || '';
 		editInput.show();
 	});
 
